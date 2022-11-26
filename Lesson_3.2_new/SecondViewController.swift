@@ -11,19 +11,9 @@ class SecondViewController: UIViewController {
     
     
     @IBOutlet weak var usernameLabel: UILabel!
-    
-    
     @IBOutlet weak var emailLabel: UILabel!
-    
-    
-    
-    @IBOutlet weak var mobileNUmberLabel: UILabel!
-    
-    
+    @IBOutlet weak var mobileNumberLabel: UILabel!
     @IBOutlet weak var birthDateLabel: UILabel!
-    
-    
-    
     @IBOutlet weak var sexLabel: UILabel!
     
     var username = ""
@@ -37,7 +27,7 @@ class SecondViewController: UIViewController {
         
         usernameLabel.text = username
         emailLabel.text = email
-        mobileNUmberLabel.text = mobileNumber
+        mobileNumberLabel.text = mobileNumber
         birthDateLabel.text = birthDate
         sexLabel.text = male
         sexLabel.text = female
